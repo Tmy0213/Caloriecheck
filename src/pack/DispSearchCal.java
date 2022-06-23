@@ -47,57 +47,5 @@ public class DispSearchCal extends HttpServlet {
         RequestDispatcher dispatcher = context.getRequestDispatcher("/jsp/MainCal.jsp");
         dispatcher.forward(request, response);
 	}
-/*	private void getDB(HttpServletRequest request) {
-		try {
-			Class.forName("org.postgresql.Driver");
 
-		} catch (ClassNotFoundException e1) {
-			//e1.printStackTrace();
-			e1.getMessage();
-		}
-
-		Connection conn = null;
-		Statement stmt = null;
-		ResultSet rset = null;
-
-		String url = "jdbc:postgresql://localhost:5432/postgres";
-        String user = "postgres";
-        String password = "postgres";
-
-
-        try{
-
-            conn = DriverManager.getConnection(url, user, password);
-
-
-           // conn.setAutoCommit(false);
-
-            stmt = conn.createStatement();
-            String sql = "SELECT * FROM Calorie ORDER BY food_id ASC";
-            rset = stmt.executeQuery(sql);
-
-            List<DataBean> list = new ArrayList<DataBean>();
-
-
-            while(rset.next()){
-            	list.add(new DataBean(rset.getInt("food_id"),rset.getString("food_name"),rset.getInt("food_calorie"),rset.getInt("food_pfc"),rset.getString("food_img"),rset.getString("registar")));
-            }
-            request.setAttribute("dbdata", list);
-        }
-        catch (SQLException e){
-            e.printStackTrace();
-        }
-        finally {
-            try {
-                if(rset != null)rset.close();
-                if(stmt != null)stmt.close();
-                if(conn != null)conn.close();
-            }
-            catch (SQLException e){
-                e.printStackTrace();
-            }
-
-        }
-
-	}*/
 }
