@@ -1,0 +1,121 @@
+@charset "UTF-8";
+body{
+    max-width: 0 auto;
+    background-color:#FFFFEE;
+}
+.main{
+  margin-right: 10%;
+  margin-left: 10%;
+  height:1100px;
+}
+
+/*ヘッダー*/
+.main-header{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    height:300px;
+    font-size: 2.5rem;
+    color:#fff	;
+    background-image:url(../images/backimg.jpg);
+    border-radius: 30px;
+    margin-bottom:30px;
+}
+.main-header h1{
+    margin-left:30px;
+    line-height: 500px;
+}
+.head_color{
+    color:#00BB00;
+}
+.registar{
+	 font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+.registar h1{
+	width:110px;
+	border-bottom: 2px solid #333;
+	margin: auto;
+}
+/*検索画面*/
+.s_table{
+    margin-top:-130px;
+}
+
+
+.search_table{
+    box-shadow: 5px 5px 5px 5px #333;
+    border-collapse: collapse;
+    border-radius  : 10px;
+    height         :500px;
+    width          :80%;
+    font-family: 'Amatic SC', cursive;
+    margin:30px auto;
+    border-radius  :10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border:1px solid #000;
+    border-spacing: 0;
+    overflow:hidden;
+}
+td,th{
+    padding:10px;
+  }
+  .search_table th{
+    background:#f2f2f2;
+  }
+th, td {
+    border: 1px solid #333;
+    font-family    : 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+  }
+.narabi{
+  margin: 0 auot;
+
+}
+
+.btn{
+    font-family    : 'M PLUS Rounded 1c', sans-serif;
+    border-radius : 20px;
+    font-size     : 13pt;
+    text-align    : center;
+    cursor        : pointer;
+    padding       : 1px 10px;
+    background    : #00BB00;
+    color         : #ffffff;
+    transition    : .3s;
+    box-shadow    : 4px 4px 3px #666666;
+    border        : 2px solid #00BB00;
+    margin-top:20px;
+    margin-left:20px;
+    height:35px;
+  }
+  .btn:hover {
+    box-shadow    : none;
+    color         : #00BB00;
+    background    : #ffffff;
+  }
+  .btn_disp{
+     text-align:right;
+  }
+  .btn2{
+    font-family    : 'M PLUS Rounded 1c', sans-serif;
+    border-radius : 20px;
+    font-size     : 13pt;
+    text-align    : center;
+    cursor        : pointer;
+    padding       : 1px 10px;
+    background    : #00BB00;
+    color         : #ffffff;
+    transition    : .3s;
+    box-shadow    : 4px 4px 3px #666666;
+    border        : 2px solid #00BB00;
+    margin-left:20px;
+    height:35px;
+  }
+  .btn2:hover {
+    box-shadow    : none;
+    color         : #00BB00;
+    background    : #ffffff;
+  }
+  .backbtn{
+ 	margin-top:-35px;
+  }

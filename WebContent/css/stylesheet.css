@@ -1,0 +1,173 @@
+@charset "UTF-8";
+body{
+    max-width: 0 auto;
+    background-color:#FFFFEE;
+
+
+}
+.main{
+  margin-right: 10%;
+  margin-left: 10%;
+  height:1100px;
+}
+.top{
+    display: flex;
+    margin-top:-30px;
+
+}
+.log{
+	line-height:10px;
+	text-align:right;
+	margin: 40px 20px;
+}
+
+/*ヘッダー*/
+.main-header{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    height:300px;
+    font-size: 2.5rem;
+    color:#fff	;
+    background-image:url(../images/backimg3.jpg);
+    border-radius: 30px;
+}
+
+.main-header h1{
+    margin-left:30px;
+    line-height: 500px;
+}
+.head_color{
+    color:#00BB00;
+
+}
+
+
+/*検索欄*/
+
+
+.search{
+    margin-top:30px;
+    margin-left:5px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border:none;
+    border-spacing: 0;
+    overflow:hidden;
+    margin-left:-px;
+
+}
+.search th{
+    border:none;
+}
+.search td{
+    border:none;
+}
+.table_in{
+    font-size:16pt;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.table_in th{
+	text-align:right;
+}
+.narabi{
+ 	 float:left;
+
+}
+.btn{
+    border-radius : 20px;
+    font-size     : 13pt;
+    text-align    : center;
+    cursor        : pointer;
+    padding       : 1px 10px;
+    background    : #00BB00;
+    color         : #ffffff;
+    transition    : .3s;
+    box-shadow    : 4px 4px 3px #666666;
+    border        : 2px solid #00BB00;
+  	margin-top:20px;
+    margin-bottom:20px;
+    margin-left:15px;
+    height:40px;
+  }
+  .btn:hover {
+    box-shadow    : none;
+    color         : #00BB00;
+    background    : #ffffff;
+  }
+  .btn1{
+    border-radius : 20px;
+    font-size     : 13pt;
+    text-align    : center;
+    cursor        : pointer;
+    padding       : 0px 10px;
+    background    : #00BB00;
+    color         : #ffffff;
+    transition    : .3s;
+    box-shadow    : 4px 4px 3px #666666;
+    border        : 2px solid #00BB00;
+  	margin-top:20px;
+    margin-bottom:20px;
+    height:40px;
+  }
+  .btn1:hover {
+    box-shadow    : none;
+    color         : #00BB00;
+    background    : #ffffff;
+  }
+
+
+
+/*表*/
+.itiran{
+   box-shadow: 5px 5px 5px 5px #333;
+    border-collapse: collapse;
+    border-radius  : 10px;
+    height         :150px;
+    width          :100%;
+    font-family: 'Amatic SC', cursive;
+    margin:30px auto;
+    border-radius  :10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border:1px solid #000;
+    border-spacing: 0;
+    overflow:hidden;
+
+  }
+
+ td,th{
+    padding:10px;
+  }
+  .itiran th{
+    background:#EFEFEF;
+  }
+  .itiran td{
+  background:rgb(255,255,255,0.25);
+  }
+th, td {
+    border: 1px solid #333;
+    font-family    : 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+  }
+.align{
+    width:50px;
+    text-align: center;
+}
+.red{
+    color:red;
+}
+.blue{
+    color:blue;
+}
+.yellow{
+    color:#edb918;
+}
+.btnalign{
+	text-align:right;
+}
+.btnalign1{
+	display:flex;
+	float:right;
+	margin-top:-78px;
+	margin-right:115px;
+}
